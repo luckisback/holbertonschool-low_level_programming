@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc $CFILE -c -o main.s
+gcc $CFILE -m32 -o main32.s
+gcc $CFILE -m64 -o main64.s
