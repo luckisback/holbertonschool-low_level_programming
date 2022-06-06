@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc $CFILE -march=x86-64 -o main.s
