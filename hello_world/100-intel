@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -c -march='x86-64' -o main.s
+gcc $CFILE -c -o main.s
