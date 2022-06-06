@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -mtune=x86-64 -o main32-64.s
+gcc $CFILE -m32 -o main.s
