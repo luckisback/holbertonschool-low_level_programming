@@ -6,11 +6,23 @@
  */
 int main(void)
 {
-	int nbre;
+	int i;
 
-	for (nbre = 0; nbre > 10; nbre++)
-		putchar("%x", nbre);
+	i = 48;
+	while (i < 58)
+	{
+		putchar(i);
+		i = i + 1;
+	}
+
+	i = 97;
+	while (i < 103)
+	{
+		putchar(i);
+		i = i + 1;
+	}
 	putchar('\n');
+
 	return (0);
 }
 
