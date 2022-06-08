@@ -1,26 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-* Return: Always 0 (Success)
-*/
+  * main - Entry point
+  * Return: Alwayse 0 (Success)
+  */
 
 int main(void)
 {
 	int i;
-	int x;
+	i = 48;
 
-	x = 48;
-	while (x < 58)
-	{
-		for (i = 48; i < 58; i++)
-		{
-			putchar(i);
-			putchar(44);
-			putchar(32);
-			putchar(x);
-		}
-		x = x + 1;
-	}
+	for (i < 57; i++)
+		putchar(i);
+		putchar(44);
+		putchar(32);
+	while ( i == 57)
+		putchar(36);
 	return (0);
 }
