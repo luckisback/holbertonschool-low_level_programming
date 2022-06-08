@@ -14,6 +14,7 @@ int main(void)
 	{
 		if (i == 57)
 			putchar(i);
+
 		if (i != 57)
 		{
 			putchar(i);
