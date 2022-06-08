@@ -17,19 +17,13 @@ int main(void)
 	{
 		while (r < 58)
 		{
-			if (l == 56 && r == 57)
-			{
-				putchar(l);
-				putchar(r);
-			}
-			if (l <= 55 && r <= 56)
+			if (l <= 56 && r <= 57)
 			{
 				putchar(l);
 				putchar(r);
 				putchar(44);
 				putchar(32);
 			}
-
 			r = r + 1;
 		}
 
