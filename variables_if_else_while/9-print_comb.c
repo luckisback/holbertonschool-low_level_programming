@@ -8,13 +8,20 @@
 int main(void)
 {
 	int i;
-	i = 48;
 
-	for (i < 57; i++)
+	i = 48;
+	while (i < 58)
+	{
 		putchar(i);
-		putchar(44);
-		putchar(32);
-	while ( i == 57)
-		putchar(36);
+		if (i == 57)
+			putchar(36);
+		if (i != 57)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		i = i + 1;
+	}
+
 	return (0);
 }
