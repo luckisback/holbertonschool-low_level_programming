@@ -5,9 +5,7 @@
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
- * @i: The character to print
  */
-/** @i: The character to print **/
 
 void print_alphabet(void)
 {
