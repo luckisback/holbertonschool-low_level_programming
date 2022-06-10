@@ -10,19 +10,22 @@ int main(void)
 	int l;
 	int r;
 
-	l = 48;
-	r = 49;
+	l = '0';
+	r = '1';
 
-	while (l < 57)
+	while (l < '9')
 	{
-		while (r < 58)
+		while (r <= '9')
 		{
 			if (l <= 56 && r <= 57)
 			{
 				putchar(l);
 				putchar(r);
-				putchar(44);
-				putchar(32);
+				if (l < 56)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 			r = r + 1;
 		}
