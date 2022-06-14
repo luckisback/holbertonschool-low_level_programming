@@ -12,12 +12,20 @@ void print_square(int size)
 	int x;
 	int y;
 
-	for (y = 1; y <= size; y++)
+	if (size <= 0)
 	{
-		for (x = 1; x <= size; x++)
-		{
-			_putchar(35);
-		}
 		_putchar('\n');
 	}
+	else
+	{
+		for (y = 1; y <= size; y++)
+		{
+			for (x = 1; x <= size; x++)
+			{
+				_putchar(35);
+			}
+			_putchar('\n');
+		}
+	}
+
 }
